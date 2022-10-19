@@ -12,3 +12,8 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=API_KEY_HERE
 
 ### Protected routes
 Any page within the `protected` directory will require a user to be signed in, otherwise it will redirect to the home page. Click the `Go to dashboard` link to see this in action.
+
+### Other notes
+This uses Supabase auth helpers. Documentation can be found [here](https://supabase.com/docs/guides/auth/auth-helpers/nextjs). Additionally, this uses Supabase's prebuilt components.
+
+
